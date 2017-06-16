@@ -25,4 +25,9 @@ void exchange(int* a, int* b)
 	*b = *a ^ *b;
 	*a = *a ^ *b;
 	*/
+	/*
+	int temp = *a;
+	*b = *a;
+	*a = temp;
+	*/
 }
