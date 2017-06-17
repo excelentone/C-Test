@@ -5,10 +5,11 @@ int main()
 {
 	int value = 0;
 
-	printf("ÊäÈëÕıÊı£º");
+	printf("è¾“å…¥æ­£æ•°ï¼š");
 	scanf("%d",&value);
-	//¼ÙÉè32Î»
-	printf("¶ş½øÖÆ·­×ªºóÖµÎª£º%u\n",reverse_bit(value));
+	
+	//å‡è®¾32ä½
+	printf("äºŒè¿›åˆ¶ç¿»è½¬åå€¼ä¸ºï¼š%u\n",reverse_bit(value));
 
 	return 0;
 }
